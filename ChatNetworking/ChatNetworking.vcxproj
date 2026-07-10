@@ -111,7 +111,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\dev\ChatNetworking\vendor\lib\SFML;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-network-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-main-d.lib;opengl32.lib;winmm.lib;ws2_32.lib;dnsapi.lib;crypt32.lib;mbedtls.lib;mbedx509.lib;mbedcrypto.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-network-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-main-d.lib;opengl32.lib;winmm.lib;ws2_32.lib;dnsapi.lib;crypt32.lib;mbedtls.lib;mbedx509.lib;mbedcrypto.lib;bcrypt.lib;FLACd.lib;freetyped.lib;harfbuzzd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -133,13 +133,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\SwagSpaceThing\Client.cpp" />
+    <ClCompile Include="src\SwagSpaceThing\Server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BetterNetworkingLikeMineCraft.hpp" />
     <ClInclude Include="src\MultipleSocketWithSocketSelector.hpp" />
     <ClInclude Include="src\Simple2DMultiplayerGame.hpp" />
-    <ClInclude Include="src\SwagSpaceMultiplayerThing.hpp" />
+    <ClInclude Include="src\SwagSpaceThing\Client.hpp" />
+    <ClInclude Include="src\SwagSpaceThing\Packet.hpp" />
+    <ClInclude Include="src\SwagSpaceThing\Server.hpp" />
+    <ClInclude Include="src\SwagSpaceThing\SwagSpaceMultiplayerThing.hpp" />
     <ClInclude Include="src\tcpudptesting.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="comic.ttf" />
+    <Font Include="comicbd.ttf" />
+    <Font Include="comici.ttf" />
+    <Font Include="comicz.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,7 @@
 #include "tcpudptesting.hpp"
 #include "MultipleSocketWithSocketSelector.hpp"
 #include "Simple2DMultiplayerGame.hpp"
-#include "SwagSpaceMultiplayerThing.hpp"
+#include "SwagSpaceThing/SwagSpaceMultiplayerThing.hpp"
 
 using namespace sf;
 using namespace std;

@@ -18,6 +18,12 @@
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\SwagSpaceThing\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SwagSpaceThing\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\tcpudptesting.hpp">
@@ -32,8 +38,23 @@
     <ClInclude Include="src\BetterNetworkingLikeMineCraft.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\SwagSpaceMultiplayerThing.hpp">
+    <ClInclude Include="src\SwagSpaceThing\SwagSpaceMultiplayerThing.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\SwagSpaceThing\Client.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SwagSpaceThing\Server.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SwagSpaceThing\Packet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="comic.ttf" />
+    <Font Include="comicbd.ttf" />
+    <Font Include="comici.ttf" />
+    <Font Include="comicz.ttf" />
   </ItemGroup>
 </Project>
